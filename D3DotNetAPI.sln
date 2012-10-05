@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explorers", "Explorers\Explorers.csproj", "{2A828141-9EF2-4A8A-8944-B2F2D1775CC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explorers.Test", "Explorers.Test\Explorers.Test.csproj", "{F1E03291-0C37-40F6-8AAF-9B471ADEEFA1}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://scantfs2012:8080/tfs/training
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Explorers.Test\\Explorers.Test.csproj
+		SccProjectName1 = Explorers.Test
+		SccLocalPath1 = Explorers.Test
+		SccProjectUniqueName2 = Explorers\\Explorers.csproj
+		SccProjectName2 = Explorers
+		SccLocalPath2 = Explorers
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = WowDotNetAPI.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A828141-9EF2-4A8A-8944-B2F2D1775CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A828141-9EF2-4A8A-8944-B2F2D1775CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A828141-9EF2-4A8A-8944-B2F2D1775CC9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2A828141-9EF2-4A8A-8944-B2F2D1775CC9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2A828141-9EF2-4A8A-8944-B2F2D1775CC9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2A828141-9EF2-4A8A-8944-B2F2D1775CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A828141-9EF2-4A8A-8944-B2F2D1775CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A828141-9EF2-4A8A-8944-B2F2D1775CC9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2A828141-9EF2-4A8A-8944-B2F2D1775CC9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2A828141-9EF2-4A8A-8944-B2F2D1775CC9}.Release|x86.ActiveCfg = Release|Any CPU
+		{F1E03291-0C37-40F6-8AAF-9B471ADEEFA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E03291-0C37-40F6-8AAF-9B471ADEEFA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E03291-0C37-40F6-8AAF-9B471ADEEFA1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F1E03291-0C37-40F6-8AAF-9B471ADEEFA1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F1E03291-0C37-40F6-8AAF-9B471ADEEFA1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F1E03291-0C37-40F6-8AAF-9B471ADEEFA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E03291-0C37-40F6-8AAF-9B471ADEEFA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1E03291-0C37-40F6-8AAF-9B471ADEEFA1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F1E03291-0C37-40F6-8AAF-9B471ADEEFA1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F1E03291-0C37-40F6-8AAF-9B471ADEEFA1}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
