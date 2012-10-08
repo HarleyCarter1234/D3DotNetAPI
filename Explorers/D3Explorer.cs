@@ -91,6 +91,19 @@ namespace D3DotNetAPI
 
         #endregion
 
+        #region Artisan
+
+        public Artisan GetArtisan(ArtisanType type)
+        {
+            Artisan artisan;
+
+            TryGetData<Artisan>(BaseAPIurl + string.Format(DataUtility.artisanPath, type), out artisan);
+
+            return artisan;
+        }
+
+        #endregion
+
         #region Hero
 
         public Hero GetHero (string battleTagName, int battleTagCode, int heroId)

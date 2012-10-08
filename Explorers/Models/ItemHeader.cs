@@ -20,5 +20,8 @@ namespace D3DotNetAPI.Models
 
         [DataMember(Name = "tooltipParams")]
         public string TooltipParams { get; set; }
+
+        [DataMember(Name = "requiredLevel")]
+        public int RequiredLevel { get; set; }
     }
 }

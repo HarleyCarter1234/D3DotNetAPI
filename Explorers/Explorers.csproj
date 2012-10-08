@@ -58,6 +58,12 @@
     <Compile Include="Exceptions\ErrorDetail.cs" />
     <Compile Include="Exceptions\ErrorInfo.cs" />
     <Compile Include="Exceptions\D3Exception.cs" />
+    <Compile Include="Models\Artisan.cs" />
+    <Compile Include="Models\ArtisanRecipeReagent.cs" />
+    <Compile Include="Models\ArtisanTraining.cs" />
+    <Compile Include="Models\ArtisanTrainingLevel.cs" />
+    <Compile Include="Models\ArtisanTrainingRecipe.cs" />
+    <Compile Include="Models\ArtisanTrainingTier.cs" />
     <Compile Include="Models\Career.cs" />
     <Compile Include="Models\CareerArtisan.cs" />
     <Compile Include="Models\CareerHero.cs" />

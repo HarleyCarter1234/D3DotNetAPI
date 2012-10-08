@@ -51,6 +51,7 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArtisanTests.cs" />
     <Compile Include="CareerTest.cs" />
     <Compile Include="FollowerTests.cs" />
     <Compile Include="HeroTests.cs" />

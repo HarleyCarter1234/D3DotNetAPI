@@ -18,6 +18,8 @@ namespace D3DotNetAPI
 
         Follower GetFollower(FollowerType type);
 
+        Artisan GetArtisan(ArtisanType type);
+
         Hero GetHero(string battleTagName, int battleTagCode, int heroId);
     }
 }
