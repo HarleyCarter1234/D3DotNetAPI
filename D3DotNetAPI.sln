@@ -5,19 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explorers", "Explorers\Expl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explorers.Test", "Explorers.Test\Explorers.Test.csproj", "{F1E03291-0C37-40F6-8AAF-9B471ADEEFA1}"
 EndProject
-Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://scantfs2012:8080/tfs/training
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Explorers.Test\\Explorers.Test.csproj
-		SccProjectName1 = Explorers.Test
-		SccLocalPath1 = Explorers.Test
-		SccProjectUniqueName2 = Explorers\\Explorers.csproj
-		SccProjectName2 = Explorers
-		SccLocalPath2 = Explorers
-	EndGlobalSection
+Global	
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = WowDotNetAPI.vsmdi
 	EndGlobalSection

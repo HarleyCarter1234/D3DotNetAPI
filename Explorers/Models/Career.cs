@@ -9,8 +9,6 @@ namespace D3DotNetAPI.Models
     [DataContract]
     public class Career
     { 
-        //need to add FallenHeroes data still
-
         [DataMember(Name = "lastHeroPlayed")]
         public long LastHeroPlayed { get; set; }
 
@@ -19,6 +17,9 @@ namespace D3DotNetAPI.Models
 
         [DataMember(Name = "heroes")]
         public IEnumerable<CareerHero> Heroes { get; set; }
+
+        [DataMember(Name = "fallenHeroes")]
+        public IEnumerable<CareerFallenHero> FallenHeroes { get; set; }
 
         [DataMember(Name = "artisans")]
         public IEnumerable<CareerArtisan> Artisans { get; set; }

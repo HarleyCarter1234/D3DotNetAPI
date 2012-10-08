@@ -21,9 +21,9 @@ namespace D3DotNetAPI.Explorers.Test
         [TestMethod]
         public void Get_Career_Gaidin_2380()
         {
+            explorer.Region = Region.EU;
             var gaidin = explorer.GetCareer("Gaidin", 2380);
 
-            Assert.AreEqual(709695, gaidin.LastHeroPlayed);
             Assert.IsTrue(gaidin.Heroes.Count() > 1);
             Assert.IsTrue(gaidin.Kills.Monsters > 0);
             Assert.IsTrue(gaidin.TimePlayed.WitchDoctor > 0);
@@ -31,5 +31,20 @@ namespace D3DotNetAPI.Explorers.Test
             Assert.IsTrue(gaidin.Artisans.Count() > 1);
             Assert.IsTrue(gaidin.HardcoreArtisans.Count() > 1);
         }
+
+        //[TestMethod]
+        //public void Get_Career_Straton_1()
+        //{
+        //    explorer.Region = Region.US;
+        //    var straton = explorer.GetCareer("Straton", 1);
+
+        //    Assert.IsTrue(straton.Heroes.Count() > 1);
+        //    Assert.IsTrue(straton.Kills.Monsters > 0);
+        //    Assert.IsTrue(straton.TimePlayed.WitchDoctor > 0);
+        //    Assert.IsTrue(straton.Progression.Inferno.Act3.Completed = true);
+        //    Assert.IsTrue(straton.Artisans.Count() > 1);
+        //    Assert.IsTrue(straton.HardcoreArtisans.Count() > 1);
+        //    Assert.IsTrue(straton.FallenHeroes.Count() > 0);
+        //}
     }
 }

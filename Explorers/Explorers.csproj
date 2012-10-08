@@ -66,6 +66,8 @@
     <Compile Include="Models\ArtisanTrainingTier.cs" />
     <Compile Include="Models\Career.cs" />
     <Compile Include="Models\CareerArtisan.cs" />
+    <Compile Include="Models\CareerFallenHero.cs" />
+    <Compile Include="Models\CareerFallenHeroDeath.cs" />
     <Compile Include="Models\CareerHero.cs" />
     <Compile Include="Models\CareerKills.cs" />
     <Compile Include="Models\CareerProgress.cs" />
