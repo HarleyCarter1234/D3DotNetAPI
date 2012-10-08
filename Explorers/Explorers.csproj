@@ -68,7 +68,15 @@
     <Compile Include="Models\CareerProgressDifficulty.cs" />
     <Compile Include="Models\CareerTimePlayed.cs" />
     <Compile Include="Models\Follower.cs" />
+    <Compile Include="Models\FollowerItems.cs" />
     <Compile Include="Models\FollowerSkills.cs" />
+    <Compile Include="Models\FollowerStats.cs" />
+    <Compile Include="Models\Hero.cs" />
+    <Compile Include="Models\HeroFollower.cs" />
+    <Compile Include="Models\HeroFollowers.cs" />
+    <Compile Include="Models\HeroItems.cs" />
+    <Compile Include="Models\HeroSkills.cs" />
+    <Compile Include="Models\HeroStats.cs" />
     <Compile Include="Models\Item.cs" />
     <Compile Include="Models\ItemAttributesRaw.cs" />
     <Compile Include="Models\ItemHeader.cs" />

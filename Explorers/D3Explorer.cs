@@ -91,6 +91,19 @@ namespace D3DotNetAPI
 
         #endregion
 
+        #region Hero
+
+        public Hero GetHero (string battleTagName, int battleTagCode, int heroId)
+        {
+            Hero hero;
+
+            TryGetData<Hero>(BaseAPIurl + string.Format(DataUtility.heroProfilePath, battleTagName, battleTagCode, heroId), out hero);
+
+            return hero;
+        }
+
+        #endregion
+
 
         private T GetData<T>(string url) where T : class
         {

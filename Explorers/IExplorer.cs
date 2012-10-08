@@ -17,5 +17,7 @@ namespace D3DotNetAPI
         Career GetCareer(string battleTagName, int battleTagCode);
 
         Follower GetFollower(FollowerType type);
+
+        Hero GetHero(string battleTagName, int battleTagCode, int heroId);
     }
 }
