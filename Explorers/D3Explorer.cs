@@ -106,7 +106,7 @@ namespace D3DotNetAPI
 
         #region Hero
 
-        public Hero GetHero (string battleTagName, int battleTagCode, int heroId)
+        public Hero GetHero (string battleTagName, int battleTagCode, long heroId)
         {
             Hero hero;
 

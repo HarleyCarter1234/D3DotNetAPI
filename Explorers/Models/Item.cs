@@ -56,5 +56,13 @@ namespace D3DotNetAPI.Models
 
         [DataMember(Name = "salvage")]
         public IEnumerable<ItemSalvagePossibility> Salvage { get; set; }
+
+        public string IdForAPI
+        {
+            get
+            {
+                return TooltipParams.Replace("item/","");
+            }
+        }
     }
 }

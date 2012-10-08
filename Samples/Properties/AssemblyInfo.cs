@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("D3DotNetAPI")]
-[assembly: AssemblyDescription("Diable 3 API access made easy")]
+[assembly: AssemblyTitle("Samples")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Harley Carter")]
-[assembly: AssemblyProduct("D3DotNetAPI")]
-[assembly: AssemblyCopyright("Copyright ©Harley Carter 2012")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Samples")]
+[assembly: AssemblyCopyright("Copyright ©  2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("575a24dc-cd40-433e-8b03-1bdcbd720be3")]
+[assembly: Guid("0c0ffec5-fb64-4df2-bc6b-5779283b3555")]
 
 // Version information for an assembly consists of the following four values:
 //

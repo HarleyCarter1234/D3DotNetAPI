@@ -23,5 +23,13 @@ namespace D3DotNetAPI.Models
 
         [DataMember(Name = "requiredLevel")]
         public int RequiredLevel { get; set; }
+
+        public string IdForAPI
+        {
+            get
+            {
+                return TooltipParams.Replace("item/", "");
+            }
+        }
     }
 }

@@ -20,6 +20,6 @@ namespace D3DotNetAPI
 
         Artisan GetArtisan(ArtisanType type);
 
-        Hero GetHero(string battleTagName, int battleTagCode, int heroId);
+        Hero GetHero(string battleTagName, int battleTagCode, long heroId);
     }
 }
