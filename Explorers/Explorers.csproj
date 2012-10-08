@@ -68,6 +68,10 @@
     <Compile Include="Models\CareerProgressDifficulty.cs" />
     <Compile Include="Models\CareerTimePlayed.cs" />
     <Compile Include="Models\Item.cs" />
+    <Compile Include="Models\ItemAttributesRaw.cs" />
+    <Compile Include="Models\ItemHeader.cs" />
+    <Compile Include="Models\ItemMinMax.cs" />
+    <Compile Include="Models\ItemSalvagePossibility.cs" />
     <Compile Include="Utilities\DataUtility.cs" />
     <Compile Include="Utilities\JsonUtility.cs" />
     <Compile Include="D3Explorer.cs" />
