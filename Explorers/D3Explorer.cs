@@ -20,6 +20,19 @@ namespace D3DotNetAPI
         TW,
         CN
     }
+
+    public enum FollowerType
+    {
+        scoundrel,
+        enchantress,
+        templar
+    }
+
+    public enum ArtisanType
+    {
+        blacksmith,
+        jeweler
+    }
       
 
     public class D3Explorer : IExplorer
@@ -52,7 +65,8 @@ namespace D3DotNetAPI
 
         #endregion
 
-    #region "Career"
+        #region Career
+
         public Career GetCareer(string battleTagName, int battleTagCode)
         {
             Career career;
@@ -61,8 +75,21 @@ namespace D3DotNetAPI
 
             return career;
         }
-    #endregion
 
+        #endregion
+
+        #region Follower
+
+        public Follower GetFollower(FollowerType type)
+        {
+            Follower follower;
+
+            TryGetData<Follower>(BaseAPIurl + string.Format(DataUtility.followerPath, type), out follower);
+
+            return follower;
+        }
+
+        #endregion
 
 
         private T GetData<T>(string url) where T : class

@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CareerTest.cs" />
+    <Compile Include="FollowerTests.cs" />
     <Compile Include="ItemTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

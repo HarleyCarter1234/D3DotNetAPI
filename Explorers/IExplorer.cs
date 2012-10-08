@@ -16,5 +16,6 @@ namespace D3DotNetAPI
 
         Career GetCareer(string battleTagName, int battleTagCode);
 
+        Follower GetFollower(FollowerType type);
     }
 }
