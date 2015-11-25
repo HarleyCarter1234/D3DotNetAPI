@@ -24,8 +24,20 @@ namespace D3DotNetAPI.Models
         [DataMember(Name = "level")]
         public int Level { get; set; }
 
+        [DataMember(Name = "kills")]
+        public CareerKills Kills { get; set; }
+
+        [DataMember(Name = "paragonLevel")]
+        public int ParagonLevel { get; set; }
+
         [DataMember(Name = "hardcore")]
         public bool Hardcore { get; set; }
+
+        [DataMember(Name = "seasonal")]
+        public bool Seasonal { get; set; }
+
+        [DataMember(Name = "seasonCreated")]
+        public int SeasonCreated { get; set; }
 
         [DataMember(Name = "skills")]
         public HeroSkills Skills { get; set; }
@@ -36,14 +48,17 @@ namespace D3DotNetAPI.Models
         [DataMember(Name = "followers")]
         public HeroFollowers Followers { get; set; }
 
+        [DataMember(Name = "legendaryPowers")]
+        public IEnumerable<HeroLegendaryPower> LegendaryPowers { get; set; }
+
         [DataMember(Name = "stats")]
         public HeroStats Stats { get; set; }
 
-        [DataMember(Name = "progress")]
-        public CareerProgress Progress { get; set; }
+        [DataMember(Name = "progression")]
+        public HeroProgression Progression { get; set; }
 
-        [DataMember(Name = "kills")]
-        public CareerKills Kills { get; set; }
+        [DataMember(Name = "dead")]
+        public bool Dead { get; set; }
 
         [DataMember(Name = "last-updated")]
         public long LastUpdated { get; set; }

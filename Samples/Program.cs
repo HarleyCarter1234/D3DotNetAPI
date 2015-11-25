@@ -25,6 +25,12 @@ namespace Samples
                 Console.WriteLine();
             }
 
+            Console.WriteLine("Season 0 Paragon Level : {0}", myCareer.SeasonalProfiles.Season0.ParagonLevel);
+            Console.WriteLine("Season 1 Paragon Level : {0}", myCareer.SeasonalProfiles.Season1.ParagonLevel);
+            Console.WriteLine("Season 2 Paragon Level : {0}", myCareer.SeasonalProfiles.Season2.ParagonLevel);
+            Console.WriteLine("Season 3 Paragon Level : {0}", myCareer.SeasonalProfiles.Season3.ParagonLevel);
+            Console.WriteLine("Season 4 Paragon Level : {0}", myCareer.SeasonalProfiles.Season4.ParagonLevel);
+
             Console.WriteLine("Press any key to continue");
             Console.ReadKey();
 
@@ -37,7 +43,7 @@ namespace Samples
             {
                 Hero hero = explorer.GetHero("Gaidin", 2380, h.Id);
                 Console.WriteLine("{0} has {1} elite kills", hero.Name, hero.Kills.Elites);
-                Console.WriteLine("     Is nightmare level completed? : {0}", hero.Progress.Nightmare.Act4.Completed);
+                Console.WriteLine("     Is act 5 completed? : {0}", hero.Progression.Act5.Completed);
                 Console.WriteLine("     Damage : {0}", hero.Stats.Damage);
                 Console.WriteLine();
             }

@@ -27,9 +27,9 @@ namespace D3DotNetAPI.Explorers.Test
             Assert.IsTrue(gaidin.Heroes.Count() > 1);
             Assert.IsTrue(gaidin.Kills.Monsters > 0);
             Assert.IsTrue(gaidin.TimePlayed.WitchDoctor > 0);
-            Assert.IsTrue(gaidin.Progression.Inferno.Act3.Completed = true);
-            Assert.IsTrue(gaidin.Artisans.Count() > 1);
-            Assert.IsTrue(gaidin.HardcoreArtisans.Count() > 1);
+            Assert.IsTrue(gaidin.Progression.Act3 = true);
+            Assert.IsTrue(gaidin.Blacksmith.Level > 1);
+            Assert.IsTrue(gaidin.BlacksmithSeasonHardcore.Level == 1);
         }
 
         //[TestMethod]

@@ -70,8 +70,11 @@
     <Compile Include="Models\CareerHero.cs" />
     <Compile Include="Models\CareerKills.cs" />
     <Compile Include="Models\CareerProgress.cs" />
-    <Compile Include="Models\CareerProgressAct.cs" />
-    <Compile Include="Models\CareerProgressCompletedQuset.cs" />
+    <Compile Include="Models\CareerSeasonProfiles.cs" />
+    <Compile Include="Models\CareerSeasonProfilesSeason.cs" />
+    <Compile Include="Models\HeroLegendaryPower.cs" />
+    <Compile Include="Models\HeroProgressAct.cs" />
+    <Compile Include="Models\HeroProgressCompletedQuest.cs" />
     <Compile Include="Models\CareerProgressDifficulty.cs" />
     <Compile Include="Models\CareerTimePlayed.cs" />
     <Compile Include="Models\Follower.cs" />
@@ -82,6 +85,7 @@
     <Compile Include="Models\HeroFollower.cs" />
     <Compile Include="Models\HeroFollowers.cs" />
     <Compile Include="Models\HeroItems.cs" />
+    <Compile Include="Models\HeroProgression.cs" />
     <Compile Include="Models\HeroSkills.cs" />
     <Compile Include="Models\HeroStats.cs" />
     <Compile Include="Models\Item.cs" />

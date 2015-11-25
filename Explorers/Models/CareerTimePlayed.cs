@@ -23,5 +23,8 @@ namespace D3DotNetAPI.Models
 
         [DataMember(Name = "witch-doctor")]
         public double WitchDoctor { get; set; }
+
+        [DataMember(Name = "crusader")]
+        public double Crusader { get; set; }
     }
 }

@@ -7,12 +7,12 @@ using System.Runtime.Serialization;
 namespace D3DotNetAPI.Models
 {
     [DataContract]
-    public class CareerProgressAct
+    public class HeroProgressAct
     {
         [DataMember(Name = "completed")]
         public bool Completed { get; set; }
 
         [DataMember(Name = "completedQuests")]
-        public IEnumerable<CareerProgressCompletedQuset> CompletedQuests { get; set; }
+        public IEnumerable<HeroProgressCompletedQuest> CompletedQuests { get; set; }
     }
 }

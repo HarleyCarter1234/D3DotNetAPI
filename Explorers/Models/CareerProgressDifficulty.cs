@@ -10,15 +10,15 @@ namespace D3DotNetAPI.Models
     public class CareerProgressDifficulty
     {
         [DataMember(Name = "act1")]
-        public CareerProgressAct Act1 { get; set; }
+        public HeroProgressAct Act1 { get; set; }
 
         [DataMember(Name = "act2")]
-        public CareerProgressAct Act2 { get; set; }
+        public HeroProgressAct Act2 { get; set; }
 
         [DataMember(Name = "act3")]
-        public CareerProgressAct Act3 { get; set; }
+        public HeroProgressAct Act3 { get; set; }
 
         [DataMember(Name = "act4")]
-        public CareerProgressAct Act4 { get; set; }
+        public HeroProgressAct Act4 { get; set; }
     }
 }

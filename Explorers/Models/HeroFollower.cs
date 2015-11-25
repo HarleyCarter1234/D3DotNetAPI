@@ -16,7 +16,7 @@ namespace D3DotNetAPI.Models
         public int Level { get; set; }
 
         [DataMember(Name = "skills")]
-        public IEnumerable<SkillActive> Skills { get; set; }
+        public IEnumerable<SkillActiveHeader> Skills { get; set; }
 
         [DataMember(Name = "items")]
         public FollowerItems Items { get; set; }

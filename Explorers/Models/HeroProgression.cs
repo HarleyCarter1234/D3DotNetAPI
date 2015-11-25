@@ -7,21 +7,21 @@ using System.Runtime.Serialization;
 namespace D3DotNetAPI.Models
 {
     [DataContract]
-    public class CareerProgress
+    public class HeroProgression
     {
         [DataMember(Name = "act1")]
-        public bool Act1 { get; set; }
+        public HeroProgressAct Act1 { get; set; }
 
         [DataMember(Name = "act2")]
-        public bool Act2 { get; set; }
+        public HeroProgressAct Act2 { get; set; }
 
         [DataMember(Name = "act3")]
-        public bool Act3 { get; set; }
+        public HeroProgressAct Act3 { get; set; }
 
         [DataMember(Name = "act4")]
-        public bool Act4 { get; set; }
+        public HeroProgressAct Act4 { get; set; }
 
         [DataMember(Name = "act5")]
-        public bool Act5 { get; set; }
+        public HeroProgressAct Act5 { get; set; }
     }
 }

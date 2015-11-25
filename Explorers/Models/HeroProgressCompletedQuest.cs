@@ -7,7 +7,7 @@ using System.Runtime.Serialization;
 namespace D3DotNetAPI.Models
 {
     [DataContract]
-    public class CareerProgressCompletedQuset
+    public class HeroProgressCompletedQuest
     {
         [DataMember(Name = "name")]
         public string Name { get; set; }

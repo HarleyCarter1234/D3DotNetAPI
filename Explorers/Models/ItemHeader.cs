@@ -24,6 +24,9 @@ namespace D3DotNetAPI.Models
         [DataMember(Name = "requiredLevel")]
         public int RequiredLevel { get; set; }
 
+        [DataMember(Name = "setItemsEquipped")]
+        public List<string> SetItemsEquipped { get; set; }
+
         public string IdForAPI
         {
             get
